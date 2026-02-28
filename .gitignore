@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio / IntelliJ
+*.ipr
+*.iws
+.idea/
+
+# Signing files
+/release_keystore
+*.jks
+*.keystore
+*.p12
+*.pk8
+*.pem
+/keystore.properties
+
+# Build outputs
+/app/release/
+/app/build/
+**/build/
+/app/debug/
+/app/release/
+*.apk
+*.aab
+
+# OS specific
+Thumbs.db
+
+# Log files
+*.log
