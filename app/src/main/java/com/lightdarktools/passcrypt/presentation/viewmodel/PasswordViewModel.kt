@@ -316,8 +316,8 @@ class PasswordViewModel(
 
     private suspend fun consolidateImport(data: List<Password>) {
         try {
-            val currentVault = useCases.getPasswords().first()
-            val existingKeys = currentVault.map { it.name.lowercase() + "||" + it.username.lowercase() }.toSet()
+            val currentPasswords = useCases.getPasswords().first()
+            val existingKeys = currentPasswords.map { it.name.lowercase() + "||" + it.username.lowercase() }.toSet()
             
             val newEntries = data.filter { 
                 val key = it.name.lowercase() + "||" + it.username.lowercase()
@@ -348,7 +348,7 @@ class PasswordViewModel(
             contentStream.beginText()
             contentStream.setFont(com.tom_roush.pdfbox.pdmodel.font.PDType1Font.HELVETICA_BOLD, 18f)
             contentStream.newLineAtOffset(50f, 750f)
-            contentStream.showText("PassCrypt Vault Backup")
+            contentStream.showText("Offline Password Manager Backup")
             contentStream.endText()
             
             contentStream.beginText()

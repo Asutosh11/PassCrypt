@@ -1,15 +1,15 @@
 <en-GB>
-PassCrypt v1 is here! 🚀
+Offline Password Manager v1 is here!
 
-Secure your digital life with our 100% offline, AES-256 encrypted password vault.
+Secure your digital life with our 100% offline, AES-256 encrypted password manager.
 
 Key features:
-• Professional Minimalist UI for clarity and speed.
-• Hardware-backed AES-256 GCM encryption.
-• Biometric Fingerprint/Face Unlock.
-• Optimized for Phones & Tablets (7" & 10").
-• In-app Password Generator.
-• Zero Ads, Tracking, or Internet permissions.
+- Professional Minimalist UI for clarity and speed.
+- Hardware-backed AES-256 GCM encryption.
+- Biometric Fingerprint/Face Unlock.
+- Optimized for Phones & Tablets (7" & 10").
+- In-app Password Generator.
+- Zero Ads, Tracking, or Internet permissions.
 
-Built for privacy. Built for you. 🛡️✨
+Built for privacy. Built for you.
 </en-GB>

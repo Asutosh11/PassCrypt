@@ -1,23 +1,23 @@
 <resources>
-    <string name="app_name">PassCrypt</string>
+    <string name="app_name">Offline Password Manager</string>
     <string name="app_short_description">Secure, offline password manager with SQLCipher encryption.</string>
-    <string name="app_full_description">PassCrypt is a modern, secure, and offline password manager for Android. Store all your credentials safely with AES-256 military-grade encryption provided by SQLCipher. Features include a clean Jetpack Compose UI, zero tracking, no internet requirements, and easy password management.</string>
+    <string name="app_full_description">Offline Password Manager is a modern, secure, and offline password manager for Android. Store all your credentials safely with AES-256 military-grade encryption provided by SQLCipher. Features include a clean Jetpack Compose UI, zero tracking, no internet requirements, and easy password management.</string>
     <string name="action_settings">Settings</string>
     <string name="action_security_info">Security Info</string>
     <string name="action_sort">Sort</string>
     <string name="action_rate_app">Give Rating</string>
-    <string name="title_rate_app">Enjoying PassCrypt?</string>
-    <string name="desc_rate_app">Your support helps keep PassCrypt secure, offline, ad-free and open source. Would you mind taking a moment to rate the App on the Play Store?</string>
+    <string name="title_rate_app">Enjoying Offline Password Manager?</string>
+    <string name="desc_rate_app">Your support helps keep Offline Password Manager secure, offline, ad-free and open source. Would you mind taking a moment to rate the App on the Play Store?</string>
     <string name="btn_already_rated">Already Rated</string>
     <string name="play_store_url">https://play.google.com/store/apps/details?id=com.lightdarktools.passcrypt</string>
 
-    <!-- Vault Phrases -->
+    <!-- Password Manager Phrases -->
     <string name="credential_added">Credential added: %s</string>
-    <string name="credential_erased">"Entry '%s' erased"</string>
+    <string name="credential_erased">"Entry \'%s\' erased"</string>
     <string name="import_success">Successfully imported %d entries</string>
     <string name="import_no_new">No new entries to import.</string>
     <string name="storage_error">Storage error: %s</string>
-    <string name="backup_pdf_title">PassCrypt Vault Backup</string>
+    <string name="backup_pdf_title">Offline Password Manager Backup</string>
     <string name="import_pdf_success">Imported %d entries from PDF!</string>
     <string name="import_pdf_no_new">No new entries found in PDF.</string>
     <string name="import_pdf_error">Failed to decrypt or parse PDF. Check PIN.</string>
@@ -25,7 +25,7 @@
     <string name="qr_process_error">Failed to process chunk. Check PIN or signal.</string>
 
     <!-- Transfer Modes -->
-    <string name="mode_vault_transfer">Vault Transfer</string>
+    <string name="mode_vault_transfer">Password Transfer</string>
     <string name="mode_qr_send">Show QR Codes</string>
     <string name="mode_qr_receive">Scan QR Codes</string>
     <string name="mode_file_export">File Export</string>
@@ -46,29 +46,28 @@
     <string name="qr_receiver_instruction">Show this screen to the receiver</string>
     <string name="qr_frame_progress">Frame %1$d of %2$d</string>
     <string name="qr_scanned_progress">Scanned %1$d / %2$d frames</string>
-    <string name="qr_saving">Saving to vault...</string>
+    <string name="qr_saving">Saving passwords...</string>
     <string name="qr_point_camera">Point camera at QR codes</string>
-    
+
     <string name="transfer_select_method">SELECT METHOD</string>
     <string name="transfer_qr_title">QR Code (Android to Android)</string>
     <string name="transfer_qr_speed">No wires required</string>
     <string name="transfer_qr_desc">Fastest for small batches between Android devices using point-and-scan technology.</string>
-    
+
     <string name="transfer_file_title">File Backup</string>
     <string name="transfer_file_speed">Readable Protected PDF</string>
     <string name="transfer_file_desc">Best for moving data to any device. Exports a password-protected PDF file with readable text.</string>
-    
+
     <string name="transfer_ios_title">iOS / Apple Passwords</string>
     <string name="transfer_ios_speed">Standard CSV</string>
-    <string name="transfer_ios_desc">Export your vault to a CSV file that can be imported directly into the Apple Passwords app.</string>
-    
+    <string name="transfer_ios_desc">Export your passwords to a CSV file that can be imported directly into the Apple Passwords app.</string>
+
     <string name="btn_send">Send</string>
     <string name="btn_receive">Receive</string>
-    
-    
+
     <string name="error_wrong_pin_data">Wrong PIN or corrupted data</string>
     <string name="error_wrong_pin_file">Wrong PIN or corrupted file</string>
-    
+
     <string name="pin_export">Enter PIN to Export</string>
     <string name="pin_import">Enter PIN to Import</string>
     <string name="pin_export_file">Enter PIN to Export File</string>
@@ -86,11 +85,11 @@
     <string name="transfer_intro_1_long">Your passwords never touch the internet. Data moves directly between Android devices via scanning (QR). For Apple users, use the specialized CSV export.</string>
     <string name="transfer_intro_2_title">Multi-Mode Backups</string>
     <string name="transfer_intro_2_short">Encrypted PDF or unencrypted CSV for iOS.</string>
-    <string name="transfer_intro_2_long">"Choose your backup: A password-locked PDF for general safety, or a standard CSV for direct import into Apple's iCloud Keychain (iOS). Always handle these files with care."</string>
+    <string name="transfer_intro_2_long">"Choose your backup: A password-locked PDF for general safety, or a standard CSV for direct import into Apple\'s iCloud Keychain (iOS). Always handle these files with care."</string>
     <string name="transfer_intro_3_title">Trust but Verify</string>
     <string name="transfer_intro_3_short">The transfer protocol is open source.</string>
-    <string name="transfer_intro_3_long">Every line of our transfer logic—from QR chunking to secure encryption—is available for public audit on GitHub. We hide nothing.</string>
-    
+    <string name="transfer_intro_3_long">Every line of our transfer logic, from QR chunking to secure encryption, is available for public audit on GitHub. We hide nothing.</string>
+
     <string name="btn_show_less">Show less</string>
     <string name="btn_read_more">Read more</string>
     <string name="btn_collapse">Collapse</string>
@@ -100,31 +99,31 @@
     <string name="csv_import_how_to">How to import to iOS:</string>
     <string name="csv_instr_1">Export and save the CSV file to your device.</string>
     <string name="csv_instr_2">Move the file to your iPhone or a Mac via iCloud, Email, or AirDrop.</string>
-    <string name="csv_instr_3">On Mac: Open the Passwords app (or System Settings > Passwords), then go to File > Import Passwords and choose this file.</string>
+    <string name="csv_instr_3">On Mac: Open the Passwords app (or System Settings &gt; Passwords), then go to File &gt; Import Passwords and choose this file.</string>
     <string name="csv_instr_4">On iPhone: Go to Settings → Apps → Safari → Import Passwords. Once imported, they will appear in the Passwords app.</string>
     <string name="csv_instr_5">Once imported, your passwords will sync across all your Apple devices via iCloud Keychain.</string>
     <string name="btn_export_csv_apple">Export CSV for Apple Passwords</string>
 
     <!-- MainActivity -->
-    <string name="tab_vault">Vault</string>
+    <string name="tab_vault">Passwords</string>
     <string name="tab_transfer">Transfer</string>
-    <string name="biometric_title">PassCrypt Locked</string>
+    <string name="biometric_title">Offline Password Manager Locked</string>
     <string name="biometric_subtitle">Authenticate to access your passwords</string>
     <string name="biometric_negative">Exit</string>
-    <string name="locked_title">Vault Locked</string>
-    <string name="locked_description">Make sure you have a screen lock set up on your device to access your vault.</string>
+    <string name="locked_title">Passwords Locked</string>
+    <string name="locked_description">Make sure you have a screen lock set up on your device to access your passwords.</string>
     <string name="locked_offline_badge">This is a 100% offline App. No servers involved</string>
-    <string name="locked_security_details">"Your PIN or biometric stays on your phone and is never sent anywhere. It protects your vault in case someone else gets hold of your device.\n\nPassCrypt App has no internet permission. Verify it yourself: Settings → Apps → PassCrypt → Mobile data &amp; Wi-Fi. You'll see 0 B used."</string>
-    <string name="btn_unlock_vault">Unlock Vault</string>
+    <string name="locked_security_details">"Your PIN or biometric stays on your phone and is never sent anywhere. It protects your passwords in case someone else gets hold of your device.\n\nOffline Password Manager has no internet permission. Verify it yourself: Settings → Apps → Offline Password Manager → Mobile data &amp; Wi-Fi. You\'ll see 0 B used."</string>
+    <string name="btn_unlock_vault">Unlock Passwords</string>
     <string name="btn_setup_lock">Set Up Screen Lock</string>
 
     <!-- MainScreen -->
-    <string name="search_placeholder">Search vault…</string>
+    <string name="search_placeholder">Search passwords…</string>
     <string name="action_clear_search">Clear search</string>
     <string name="filter_all">All</string>
     <string name="fab_hint_first_password">Tap here to add your first password!</string>
     <string name="btn_add">Add</string>
-    <string name="empty_vault_title">Empty vault</string>
+    <string name="empty_vault_title">No passwords yet</string>
     <string name="empty_vault_desc">Tap the + button to add your first credential.</string>
     <string name="no_matches_title">No matches</string>
     <string name="no_matches_desc">Try a different search term.</string>
@@ -165,30 +164,30 @@
     <string name="intro_expand">Expand</string>
     <string name="intro_storage_title">Local Encrypted Storage</string>
     <string name="intro_storage_short">All data is stored in a secure local database, locked by your device\'s Master Key.</string>
-    <string name="intro_storage_long">By removing the \'Cloud\', we eliminate server-side breaches. Your \'Master Key\' is tied to your device credentials (Biometric or PIN). Without these credentials, the data remains a locked, unreadable file.</string>
+    <string name="intro_storage_long">By removing the cloud, we eliminate server-side breaches. Your Master Key is tied to your device credentials (Biometric or PIN). Without these credentials, the data remains a locked, unreadable file.</string>
     <string name="intro_network_title">Zero Network Access</string>
     <string name="intro_network_short">No internet permissions. Your data never leaves your device.</string>
-    <string name="intro_network_long">You can verify it yourself: Settings → Apps → PassCrypt → Mobile data &amp; Wi-Fi. You\'ll see 0 B used.. PassCrypt does not request the INTERNET permission — making it impossible for the app to send your data anywhere.</string>
+    <string name="intro_network_long">You can verify it yourself: Settings → Apps → Offline Password Manager → Mobile data &amp; Wi-Fi. You\'ll see 0 B used. Offline Password Manager does not request the INTERNET permission, making it impossible for the app to send your data anywhere.</string>
     <string name="intro_source_title">Open Source Transparency</string>
     <string name="intro_source_short">The code is public. Trust the math, not the developer.</string>
-    <string name="intro_source_long">PassCrypt is Open Source. You can inspect the entire codebase yourself on GitHub to verify how we handle encryption and ensure there are no backdoors. [https://github.com/Asutosh11/PassCrypt](https://github.com/Asutosh11/PassCrypt)</string>
+    <string name="intro_source_long">Offline Password Manager is Open Source. You can inspect the entire codebase yourself on GitHub to verify how we handle encryption and ensure there are no backdoors. [https://github.com/Asutosh11/PassCrypt](https://github.com/Asutosh11/PassCrypt)</string>
     <string name="intro_crypto_title">Military-Grade Encryption</string>
-    <string name="intro_crypto_short">Your vault is secured using AES-256 encryption.</string>
-    <string name="intro_crypto_long">Every byte of your data is scrambled using AES-256. Your device\'s secure credentials act as the \'Master Key\'. Without your specific identity, the data is mathematically impossible to read.</string>
-    <string name="intro_transfer_header">Secure Vault Transfer</string>
+    <string name="intro_crypto_short">Your passwords are secured using AES-256 encryption.</string>
+    <string name="intro_crypto_long">Every byte of your data is scrambled using AES-256. Your device\'s secure credentials act as the Master Key. Without your specific identity, the data is mathematically impossible to read.</string>
+    <string name="intro_transfer_header">Secure Password Transfer</string>
     <string name="intro_transfer_short">Move data Android-to-Android via QR or local backups.</string>
-    <string name="intro_transfer_long">Need to switch phones? You can move your vault directly between Android devices via encrypted QR chunks. For Apple users, use the CSV export. No cloud, no risk of interception.</string>
+    <string name="intro_transfer_long">Need to switch phones? You can move your passwords directly between Android devices via encrypted QR chunks. For Apple users, use the CSV export. No cloud, no risk of interception.</string>
     <string name="label_show_less">Show less</string>
     <string name="label_read_more">Read more</string>
 
     <!-- Security Info Dialog (previously mixed) -->
     <string name="title_security_privacy">Security &amp; Privacy</string>
     <string name="feature_offline_title">100% Offline</string>
-    <string name="feature_offline_short">ZERO internet permissions — your vault never touches the web.</string>
+    <string name="feature_offline_short">ZERO internet permissions — your passwords never touch the web.</string>
     <string name="feature_aes_title">AES-256 Encryption</string>
-    <string name="feature_aes_short">Your vault is secured using industry-standard AES-256.</string>
+    <string name="feature_aes_short">Your passwords are secured using industry-standard AES-256.</string>
     <string name="feature_verified_title">Verified Safety</string>
-    <string name="feature_verified_short">"Check 'Mobile data &amp; Wi-Fi' — 0 B consumed, always."</string>
+    <string name="feature_verified_short">"Check \'Mobile data &amp; Wi-Fi\' — 0 B consumed, always."</string>
     <string name="btn_privacy">Privacy</string>
     <string name="btn_terms">Terms</string>
     <string name="btn_got_it">Got it</string>
@@ -206,16 +205,15 @@
     <string name="placeholder_select_category">Select category</string>
 
     <!-- TutorialOverlay -->
-    <string name="tutorial_title_1">Welcome to PassCrypt</string>
-    <string name="tutorial_desc_1">Your personal, offline password vault. All your credentials are stored securely on your device—never in the cloud.</string>
+    <string name="tutorial_title_1">Welcome to Offline Password Manager</string>
+    <string name="tutorial_desc_1">Your personal, offline password manager. All your credentials are stored securely on your device—never in the cloud.</string>
     <string name="tutorial_title_2">Always Encrypted</string>
-    <string name="tutorial_desc_2">PassCrypt uses AES-256 encryption to protect every entry. Unlock with your fingerprint or device PIN—no master password to forget.</string>
+    <string name="tutorial_desc_2">Offline Password Manager uses AES-256 encryption to protect every entry. Unlock with your fingerprint or device PIN—no master password to forget.</string>
     <string name="tutorial_title_3">Easy Transfer</string>
-    <string name="tutorial_desc_3">Moving to a new phone? Transfer your entire vault between Android devices via QR chunks. You can also export a password-locked PDF for safety, or a CSV file to switch to an iPhone—no internet required.</string>
+    <string name="tutorial_desc_3">Moving to a new phone? Transfer your entire password collection between Android devices via QR chunks. You can also export a password-locked PDF for safety, or a CSV file to switch to an iPhone—no internet required.</string>
     <string name="btn_skip">Skip</string>
     <string name="btn_get_started">Get Started</string>
     <string name="btn_next">Next</string>
-
 
     <!-- Missing UI Strings -->
     <string name="desc_add_credential">Add credential</string>

@@ -159,7 +159,7 @@ fun ExportScreen(viewModel: PasswordViewModel, onSuccessfulImport: () -> Unit) {
             )
         }
     ) { padding ->
-        // Launcher for picking the .pcvault file
+        // Launcher for picking an exported backup file
     val pdfSaveLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.CreateDocument("application/pdf")
     ) { uri: Uri? ->
@@ -254,7 +254,7 @@ fun ExportScreen(viewModel: PasswordViewModel, onSuccessfulImport: () -> Unit) {
                 onExport = { 
                     scope.launch {
                         csvContentToSave = viewModel.generateBackupCsv()
-                        csvSaveLauncher.launch("passcrypt_ios_backup_${System.currentTimeMillis()}.csv")
+                        csvSaveLauncher.launch("offline_password_manager_ios_backup_${System.currentTimeMillis()}.csv")
                     }
                 },
                 padding = padding
@@ -296,7 +296,7 @@ fun ExportScreen(viewModel: PasswordViewModel, onSuccessfulImport: () -> Unit) {
                             try {
                                 val pdfData = viewModel.generateBackupPdf(pin)
                                 pdfBytesToSave = pdfData
-                                pdfSaveLauncher.launch("passcrypt_backup_${System.currentTimeMillis()}.pdf")
+                                pdfSaveLauncher.launch("offline_password_manager_backup_${System.currentTimeMillis()}.pdf")
                             } catch (e: Exception) {
                                 viewModel.showStringResourceToast(R.string.save_failed, e.message ?: "")
                             }

@@ -14,8 +14,8 @@ android {
         applicationId = "com.lightdarktools.passcrypt"
         minSdk = 24
         targetSdk = 35
-        versionCode = 108
-        versionName = "1.0.8"
+        versionCode = 109
+        versionName = "1.0.9"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

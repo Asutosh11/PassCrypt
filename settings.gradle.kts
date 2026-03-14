@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PassCrypt"
+rootProject.name = "Offline Password Manager"
 include(":app")
