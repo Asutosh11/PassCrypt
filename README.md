@@ -1,4 +1,4 @@
-# Passcrypt: Offline Password Manager
+# Offline Password Manager
 [![Get it on Google Play](https://img.shields.io/badge/Google_Play-Download-brightgreen?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=com.lightdarktools.passcrypt)
 
 **Offline Password Manager** is a modern, high-security Android password manager built with a **Zero-Knowledge, Offline-First** architecture. Unlike cloud-based solutions, Offline Password Manager stores all your credentials exclusively on your device, ensuring you have absolute control over your sensitive data.
